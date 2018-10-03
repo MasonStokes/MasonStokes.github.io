@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: none;
+    background-color: black
+}
+
+button1 {
+    background-color: gray;
+    border: 0px;
+    margin: 2px;
+}
+
+button2 {
+    background-color: gray;
+    border: 0px;
+    margin: 2px;
+}
+
+characters {
+    padding-top: 25px;
+    margin-left: 100px;
+}

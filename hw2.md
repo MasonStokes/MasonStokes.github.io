@@ -11,5 +11,3 @@ generate a result for the form, I then had to figure out how to use js to write 
 generate a view of the result.
 
 3.A sketch of the page before input of data and the result after submitting the form.
-
-4.

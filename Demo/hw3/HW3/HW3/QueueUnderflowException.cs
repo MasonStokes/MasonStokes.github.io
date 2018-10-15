@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace HW3
 {
-    class QuueUnderflowException : SystemException
+    class QueueUnderflowException : SystemException
     {
-
-        public QueueUnderflowExcepiton(String message) : base(message)
+        public QueueUnderflowException()
+        {
+        }
+        
+        /// <summary>
+        /// This will return a message if an illegal operation is performed
+        /// in the program.
+        /// </summary>
+        /// <param name="message"></param>
+        public QueueUnderflowException(String message) : base(message)
         {
         }
     }

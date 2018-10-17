@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Data;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,22 +20,32 @@ namespace Homework4.Controllers
             return View();
         }
 
+        [HttpGet]
         public ActionResult ColorChooser()
         {
             return View();
         }
 
-        public ActionResult About()
+        [HttpGet]
+        public ActionResult Mile()
         {
-            ViewBag.Message = "Your application description page.";
+            Debug.WriteLine(Request.QueryString["user_name"]);
+            Debug.WriteLine(Request.QueryString["user_email"]);
+            Debug.WriteLine(Request.QueryString["user_message"]);
 
+            string name = Request.QueryString["user_name"];
+            if(name != null)
+            {
+                string message = "Hello" + name + "! Welcome.";
+                ViewBag.message = message;
+            }
+            
             return View();
         }
 
-        public ActionResult Contact()
+        [HttpPost]
+        public ActionResult Mile2()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }

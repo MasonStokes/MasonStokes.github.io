@@ -13,9 +13,14 @@ namespace Homework4.Controllers
             return View();
         }
 
-        public string hello()
+        public ActionResult Converter()
         {
-            return "hello world";
+            return View();
+        }
+
+        public ActionResult ColorChooser()
+        {
+            return View();
         }
 
         public ActionResult About()

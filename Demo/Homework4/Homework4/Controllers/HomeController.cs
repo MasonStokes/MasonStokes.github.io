@@ -46,22 +46,11 @@ namespace Homework4.Controllers
                 ViewBag.result = true;
             }
 
-            string message = miles + "miles is equal to " + output + " " + metric;
+            string message = miles + " miles is equal to " + output + " " + metric;
 
             ViewBag.Message = message;
 
             return View();
-        }
-
-        public ActionResult Miles()
-        {
-            ///What to use for the color changer html page.
-            //@using (Html.BeginForm("Miles","Home",FormMethod.Post))
-            //{
-                //@Html.Label("Name","Name")
-                //@Html.TextBox("Name", null,htmlAttributes:new { @class="form-control", type="number"})
-            //}
-            return View();//@Html.Label("Name","Name")
         }
         
     }

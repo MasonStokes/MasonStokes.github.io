@@ -10,17 +10,31 @@
     <h3>@ViewBag.message</h3>
 }
 
-    <form action="/Home/Mile" method="get">
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name">
-        </div>
-        <div>
-            <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="user_mail">
-        </div>
-        <div>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-        </div>
-    </form>
+    <div class="row">
+        <form action="/Home/Mile" method="get">
+
+            <div class="col-md-6">
+                <label for="miles">Miles:</label>
+                <input type="text" id="name" name="miles" step=".001" required>
+            </div>
+
+            <div class="col-md-6">
+                <h3>Select units:</h3>
+
+                <label for="mm">Millimeters</label>
+                <input type="radio" id="mm" name="metric" value="mm"><br />
+
+                <label for="cm">Centimeters</label>
+                <input type="radio" id="cm" name="metric" value="cm"><br />
+
+                <label for="meters">Meters</label>
+                <input type="radio" id="m" name="metric" value="m"><br />
+
+                <label for="km">Kilometers</label>
+                <input type="radio" id="km" name="metric" value="km"><br />
+
+            </div>
+            <center><button type="submit" class="btn btn-primary btn-lg">Convert</button></center>
+        </form>
+    </div>
+    

@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "User";
+}
+
+<h2>User</h2>
+
+@using (Html.BeginForm("User", "User", FormMethod.Get))
+{
+<div class="form-group">
+    @Html.Label("FirstName", "First Name")
+    @Html.TextBox("FirstName", null, htmlAttributes: new { @class = "form-control", type = "text", required = "required" })
+
+    @Html.Label("LastName", "Last Name")
+    @Html.TextBox("LastName", null, htmlAttributes: new { @class = "form-control", type = "text", required = "required" })
+
+    @Html.Label("PhoneNumber", "Phone Number")
+    @Html.TextBox("PhoneNumber", null, htmlAttributes: new { @class = "form-control", type = "number", required = "required" })
+
+    @Html.Label("ApartmentName", "Apartment Name")
+    @Html.TextBox("ApartmentName", null, htmlAttributes: new { @class = "form-control", type = "text", required = "required" })
+
+    @Html.Label("UnitNumber", "Unit Number")
+    @Html.TextBox("UnitNumber", null, htmlAttributes: new { @class = "form-control", type = "number", required = "required" })
+</div>
+}

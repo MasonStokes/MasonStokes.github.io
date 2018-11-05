@@ -9,7 +9,7 @@ namespace Homework5.DAL
 {
     public class UserContext : DbContext
     {
-        public UserContext() : base("name=User")
+        public UserContext() : base("name=Users")
         {
 
         }

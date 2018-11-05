@@ -1,0 +1,66 @@
+﻿@model  IEnumerable<Homework5.Models.User>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Current work requests</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ApartmentName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnitNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Explanation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Permission)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SubmitTime)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.ApartmentName)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.UnitNumber)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Explanation)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.Permission)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.SubmitTime)
+            </th>
+        </tr>
+    }
+</table>

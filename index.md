@@ -6,4 +6,4 @@ I am a Computer Science major and a Spanish minor at Western Oregon University. 
 
 ### Course Content
 
-[Portfolio](portfolio.html)
+[Portfolio](portfolio)

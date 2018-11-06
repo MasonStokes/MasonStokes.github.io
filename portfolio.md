@@ -9,11 +9,13 @@ The following links will take you to demos and descriptions of the homework assi
 ### Homework 1
 
 [Blog](hw1.html)
+
 [Demo](/Demo/hw1/index.html)
 
 ### Homework 2
 
 [Blog](hw2.html)
+
 [Demo](/Demo/hw1/index.html)
 
 ### Homework 3
@@ -27,4 +29,5 @@ The following links will take you to demos and descriptions of the homework assi
 ### Homework 5
 
 [Blog](hw5)
-[Demo](/Demo/hw1/index.html)
+
+[Demo](https://www.youtube.com/watch?v=3h1vzJFjUZU&feature=youtu.be)

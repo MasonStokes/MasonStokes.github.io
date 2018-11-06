@@ -10,7 +10,7 @@ CREATE TABLE [dbo].[Users]
 	[Explanation]		VARCHAR(512)			NOT NULL,
 	[Permission]		BIT,
 	[SubmitTime]		DATETIME				NOT NULL,
-	CONTRAINT [PK_dbo.Users] PRIMARY KEY CLUSTERED ([ID] ASC)
+	CONSTRAINT [PK_dbo.Users] PRIMARY KEY CLUSTERED ([ID] ASC)
 );
 GO
 

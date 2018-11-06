@@ -3,5 +3,5 @@ IF EXISTS(
 	SELECT *
 	FROM [dbo].[Users]
 	)
-	DROP TABLE [dbo].[User]
+	DROP TABLE [dbo].[Users]
 Go

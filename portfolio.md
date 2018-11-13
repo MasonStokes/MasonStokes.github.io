@@ -24,10 +24,16 @@ The following links will take you to demos and descriptions of the homework assi
 
 ### Homework 4
 
-[Blog](hw4.html)
+[Blog](hw4)
 
 ### Homework 5
 
 [Blog](hw5)
 
 [Demo](https://www.youtube.com/watch?v=3h1vzJFjUZU&feature=youtu.be)
+
+### Homework 6
+
+[Blog](hw6)
+
+[Demo](https://www.youtube.com/watch?v=gtZN6Vos0as)

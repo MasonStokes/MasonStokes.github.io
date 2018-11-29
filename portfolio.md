@@ -26,6 +26,8 @@ The following links will take you to demos and descriptions of the homework assi
 
 [Blog](hw4)
 
+[Demo](https://www.youtube.com/watch?v=redqKUxbaBM)
+
 ### Homework 5
 
 [Blog](hw5)
@@ -37,3 +39,16 @@ The following links will take you to demos and descriptions of the homework assi
 [Blog](hw6)
 
 [Demo](https://www.youtube.com/watch?v=gtZN6Vos0as)
+
+### Homework 7
+[Blog](hw7)
+
+[Demo](https://www.youtube.com/watch?v=M0HHY2dBluM)
+
+### Homework 8
+[Blog](hw8)
+
+[Demo]()
+
+### Homework 9
+[Blog](hw9)

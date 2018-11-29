@@ -1,0 +1,91 @@
+﻿@model IEnumerable<Homework8.Models.Bid>
+@using System.Web.Mvc.Html;
+
+@{
+    ViewBag.Title = "Reginald's Ancient Antiquities Auction House";
+}
+
+<br />
+<h2 class="special-title" style="text-align: center;">REGINALD'S ANCIENT ANTIQUITIES AUCTION HOUSE</h2>
+<br />
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Make a listing</h3>
+            <label>
+                Auction off you valuables, please.
+            </label>
+            @Html.ActionLink("Add an item", "Create", "Items", null, new { @class = "btn btn-secondary" })
+        </div>
+        <div class="col-sm-4">
+            <h3>View current listings</h3>
+            <label>
+                Check out a list of all our great old stuff.
+            </label>
+            @Html.ActionLink("View all items", "Index", "Items", null, new { @class = "btn btn-secondary" })
+        </div>
+        <div class="col-sm-4">
+            <h3>Place a bid</h3>
+            <label>
+                Bid on something you probably don't need.
+            </label>
+            @Html.ActionLink("Place a bid", "Create", "Bids", null, new { @class = "btn btn-secondary" })
+        </div>
+    </div>
+</div>
+<br/>
+
+<br/>
+@*<h5>Ten most recent bids</h5>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ITEMID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Item.NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Buyer.NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PRICE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TIMESTAMP)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ITEMID)
+            </td>
+            <td>
+                @Html.ActionLink(item.Item.NAME, "DETAILS", new { id = item.ITEMID })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Buyer.NAME)
+            </td>
+            <td>
+                @String.Format("{0:C}", item.PRICE)
+            </td>
+
+            @if (item.TIMESTAMP.Date == DateTime.Today)
+            {
+                <td>
+                    @String.Format("{0:T}", item.TIMESTAMP)
+                </td>
+            }
+            else
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => item.TIMESTAMP)
+                </td>
+            }
+        </tr>
+    }
+
+</table>*@

@@ -48,7 +48,9 @@ The following links will take you to demos and descriptions of the homework assi
 ### Homework 8
 [Blog](hw8)
 
-[Demo]()
+[Demo](https://youtu.be/WdBO6OchpIE)
 
 ### Homework 9
 [Blog](hw9)
+
+[Demo](https://youtu.be/SEtwIcm1Q6M)

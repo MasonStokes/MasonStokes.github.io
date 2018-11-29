@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "ColorChooser";
+}
+
+<h2>Color Chooser</h2>
+
+<p>Enter color in Html hexidecimal form: #ABC123</p>
+
+<div class="col-md-6">
+    @using (Html.BeginForm("ColorChooser", "Color", FormMethod.Post))
+    {
+        <div class="for-group">
+            @Html.Label("FirstColor", "First Color:")
+            @Html.TextBox("FirstColor", "", new { @class = "form-control", @pattern = "#[0-9A-Fa-f]{3,6}", type = "text", @palceholder = "#ABC123", required = "required" })
+
+            @Html.Label("SecondColor", "Second Color:")
+            @Html.TextBox("SecondColor", "", new { @class = "form-control", @pattern = "#[0-9A-Fa-f]{3,6}", type = "text", @palceholder = "#ABC123", required = "required" })
+
+        </div>
+
+        <button type="submit" value="Submit" class="btn btn-primary">Submit</button>
+    }
+    
+    <div class="row">
+        <div class="col-sm-3" style="@ViewBag.color1"></div>
+        <div class="col-sm-3" style="width:50px;" height: 100px;><h3>+</h3></div>
+        <div class="col-sm-3" style="@ViewBag.color2"></div>
+        <div class="col-sm-3" style="width:50px;" height: 100px;><h3>=</h3></div>
+        <div class="col-sm-3" style="@ViewBag.result"></div>
+    </div>
+</div>

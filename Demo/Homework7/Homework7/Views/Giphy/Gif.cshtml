@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Gif";
+}
+
+<h2>Gif</h2>
+
+<div class="row inputArea">
+    <div style="width: 100%; margin: 0 auto;">
+            <!-- Create the input bar -->
+            @Html.TextBox("inputString", "", new{ @class = "form-control", id = "searchInput", placeholder = "Begin typing your message here", type = "text" })
+
+            <!-- Add a button to refresh the page and let the client start over -->
+            <br/>
+            <input type="Reset" value="Reset" onClick="window.location.reload()">
+    </div>
+</div>
+
+
+<div id="container" style="margin-left: 20px;">
+    <p>
+        <div id="message"></div>
+    </p>
+</div>
+
+@section scriptSection
+{
+    <script src="~/Scripts/giphy.js" type="text/javascript"></script>
+}
+

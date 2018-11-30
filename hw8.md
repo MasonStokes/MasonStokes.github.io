@@ -4,7 +4,7 @@
 
 ### ER Diagram
 
-![image](~/images/ERDiagram.png)
+!(/images/ERDiagram.png)
 
 
 ### SQL up and down scripts to build out the database.

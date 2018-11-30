@@ -54,3 +54,5 @@ The following links will take you to demos and descriptions of the homework assi
 [Blog](hw9)
 
 [Demo](https://youtu.be/SEtwIcm1Q6M)
+
+[Corrections to Homework 8 and Cloud deploy](https://youtu.be/roq0epICA2o)

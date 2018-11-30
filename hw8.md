@@ -1,5 +1,12 @@
 # Homework 8
 
+
+
+### ER Diagram
+
+![image](~/images/ERDiagram.png)
+
+
 ### SQL up and down scripts to build out the database.
 
 ```sql
@@ -320,13 +327,13 @@ DROP TABLE [dbo].[Buyers]
             </div>
         </div>
 
-        @*<div class="form-group">
+        <div class="form-group">
             @Html.LabelFor(model => model.SellerID, "SellerID", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.DropDownList("SellerID", null, htmlAttributes: new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.SellerID, "", new { @class = "text-danger" })
             </div>
-        </div>*@
+        </div>
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
@@ -359,7 +366,7 @@ DROP TABLE [dbo].[Buyers]
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Items</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -398,6 +405,7 @@ DROP TABLE [dbo].[Buyers]
 }
 
 </table>
+
 
 
 ```
@@ -542,6 +550,7 @@ namespace Homework8.Controllers
 }
 
 
+
 ```
 
 
@@ -556,7 +565,7 @@ namespace Homework8.Controllers
     ViewBag.Title = "Create";
 }
 
-<h2>Create</h2>
+<h2>Create Bid</h2>
 
 
 @using (Html.BeginForm()) 
@@ -615,6 +624,7 @@ namespace Homework8.Controllers
     @Scripts.Render("~/bundles/jqueryval")
 }
 
+
 ```
 
 
@@ -629,7 +639,7 @@ namespace Homework8.Controllers
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Bid Details</h2>
 
 <div>
     <h4>Bid</h4>
@@ -674,6 +684,7 @@ namespace Homework8.Controllers
     @Html.ActionLink("Back to List", "Index")
 </p>
 
+
 ```
 
 
@@ -688,7 +699,7 @@ namespace Homework8.Controllers
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Bids</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -733,6 +744,7 @@ namespace Homework8.Controllers
 }
 
 </table>
+
 
 ```
 
@@ -893,6 +905,7 @@ namespace Homework8.Controllers
     }
 }
 
+
 ```
 
 
@@ -901,6 +914,7 @@ namespace Homework8.Controllers
 ### bid javascript
 
 ```javascript
+
 
 function bidRequest() {
     var input = document.getElementById("sellerName").value;

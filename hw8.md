@@ -6,6 +6,29 @@
 
 ![ERDiagram](images/ERDiagram.png)
 
+### Fixed Bids List
+
+I finally got the list of the last 10 bids to show up on the main page, 
+but when it is deployed the list will not show on the main page, but when 
+looking up the Bids/Index on my deployed site all of the bids show on that page.
+
+Both the local and the deployed versions are calling to the database deployed 
+on azure.
+
+## Local Bids on Home and Bid/Index pages
+
+![LocalHome](images/LocalHome.png)
+
+![LocalBidIndex](images/LocalBidIndex.png)
+
+## Deployed Bids on Home and Bid/Index pages
+
+![LocalHome](images/DeployHome.png)
+
+![LocalBidIndex](images/DeployBidIndex.png)
+
+
+
 
 ### SQL up and down scripts to build out the database.
 

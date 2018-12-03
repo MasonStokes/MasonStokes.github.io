@@ -72,3 +72,5 @@ The following links will take you to demos and descriptions of the homework assi
 [Jquery](https://www.w3schools.com/jquery/default.asp)
 
 [Linq](https://msdn.microsoft.com/en-us/library/bb394939.aspx)
+
+[Branching](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)

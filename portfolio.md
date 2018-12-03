@@ -58,3 +58,17 @@ The following links will take you to demos and descriptions of the homework assi
 [Demo](https://youtu.be/SEtwIcm1Q6M)
 
 [Corrections to Homework 8 and Cloud deploy](https://youtu.be/roq0epICA2o)
+
+
+
+### Final references
+
+[Razor](https://www.w3schools.com/ASP/razor_intro.asp)
+
+[asp.net mvc slides](http://www.wou.edu/~morses/classes/cs46x/presentations/CS460_3.html#/)
+
+[Ajax](https://www.w3schools.com/xml/ajax_intro.asp)
+
+[Jquery](https://www.w3schools.com/jquery/default.asp)
+
+[Linq](https://msdn.microsoft.com/en-us/library/bb394939.aspx)
